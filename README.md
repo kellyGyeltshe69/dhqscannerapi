@@ -1,2 +1,0 @@
-# dhqscannerapi
-# pip install requirementss

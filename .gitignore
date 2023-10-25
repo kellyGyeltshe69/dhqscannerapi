@@ -1,4 +1,8 @@
-env 
-env3.*
+# Ignore .env files
+.env
+
+# Ignore Python pycache directories
 __pycache__
+
+# Ignore the 'attend.db' file
 attend.db
