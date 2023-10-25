@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: ./  # Specify the path to the directory containing the Dockerfile
+      dockerfile: Dockerfile  # Specify the name of the Dockerfile
+    command: uvicorn app.main:app --host 0.0.0.0
+    ports:
+      - 8000:8000
+
+    restart: always
